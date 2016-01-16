@@ -1,5 +1,7 @@
 #include <SDL2/SDL.h>
+
 #include "graphics.h"
+
 
 /* Graphics class
  * Holds all information dealing with graphics for the game
