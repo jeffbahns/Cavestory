@@ -44,7 +44,7 @@ all: Cavestory
 Cavestory: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross G++ Linker'
-	g++ -framework SDL2 -framework Cocoa -o "Cavestory" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -framework SDL2 -framework Cocoa -framework SDL2_image -o "Cavestory" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -1,9 +1,5 @@
 #include "input.h"
 
-/* Input class
- * Keeps track of keyboard state
- */
-
 //This function gets called at begin of each frame
 //to reset keys that are no longer relevant
 void Input::beginNewFrame() {

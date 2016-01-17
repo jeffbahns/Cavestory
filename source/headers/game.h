@@ -1,6 +1,12 @@
 #ifndef GAME_H
 #define GAME_H
 
+#include "sprite.h"
+
+/* Game class
+ * This class holds all information for our main game loop
+ */
+
 class Graphics;
 
 class Game {
@@ -11,6 +17,8 @@ private:
 	void gameLoop();
 	void draw(Graphics &graphics);
 	void update(float elapsedTime);
+
+	Sprite _player;
 };
 
 #endif
